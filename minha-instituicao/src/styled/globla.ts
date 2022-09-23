@@ -9,8 +9,9 @@ export const Global = createGlobalStyle`
    box-sizing: border-box;
    text-decoration: none;
    list-style: none;
-   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-   
+   font-family: 'Poppins', sans-serif;
+   line-height: 35px;
+   background-color: rgba(0,0,0,0);
 }
 
 ` 
