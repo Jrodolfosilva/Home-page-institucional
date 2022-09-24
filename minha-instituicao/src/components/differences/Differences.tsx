@@ -6,6 +6,7 @@ const Differences = ()=>{
         <ContainerDifferences>
            <TitleDifferences>
            Por que ter um programa de benefícios?
+           <span>O Fidelicash ClubPetro é um diferencial para o seu Posto, onde você pode oferecer prêmios e descontos exclusivos para seus clientes, incentivando o retorno, a indicação de novos clientes e a fidelização.</span>
            </TitleDifferences>
            <DifferencesExemple>
 
