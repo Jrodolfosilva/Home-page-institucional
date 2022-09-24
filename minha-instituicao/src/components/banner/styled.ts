@@ -28,6 +28,7 @@ h2{
 }
 p{
     font-size: 18px;
+    color:#6e6e6e;;
  
 }
 button{
