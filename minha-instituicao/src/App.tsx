@@ -1,6 +1,7 @@
 import Banner from "./components/banner/Banner"
 import Benefits from "./components/benefits/Benefits"
 import Differences from "./components/differences/Differences"
+import Footer from "./components/footer/Footer"
 import Header from "./components/header/Header"
 
 function App() {
@@ -11,6 +12,7 @@ function App() {
     <Banner/>
     <Differences/>
     <Benefits/>
+    <Footer/>
       
     </div>
   )

@@ -7,7 +7,7 @@ import ImagemPosto from "../../assets/banner-posto.png"
 const Banner = ()=>{
 
     return(
-        <ContainerBanner>
+        <ContainerBanner id="home">
             <BannerInfo>
                 <img src={Logo} alt="Logomarca" />
                 <h2>Fidelidade e Cashback em um só produto com a cara do seu Posto</h2>
