@@ -9,9 +9,12 @@ const [valuePhone,setValuePhone]= useState("")
 
 const sendEmail = (e:any)=>{
 e.preventDefault()
+const data ={
+    valueName,
+    valuePhone
+}
 
-
-
+console.log(data)
 }
 
     return(

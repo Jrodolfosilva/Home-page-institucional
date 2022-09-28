@@ -9,6 +9,11 @@ background-color: #e6e6e6;
 padding: 100px 40px;
 gap:40px;
 
+@media (max-width:450px) {
+    padding: 0px;
+    gap:20px
+}
+
 `
 export const ContainerForms = styled.section`
 form{
@@ -40,6 +45,22 @@ input[type="submit"]{
     }
 }
 
+@media (max-width:450px) {
+    form{
+        width: 100vw;
+        border: none;
+        padding: 0px;
+        text-align: center;
+        h2{
+            font-size: 22px;
+        }
+    }
+    input{
+        width: 90vw;
+        margin: 20px auto;
+    }
+}
+
 `
 
 export const ContainerMaps = styled.section`
@@ -49,5 +70,12 @@ export const ContainerMaps = styled.section`
         height: 350px;
         width: 450px;
     }
+
+    @media (max-width:450px) {
+    iframe{
+        width: 90vw;
+        margin-bottom: 40px;
+    }
+}
 
 `

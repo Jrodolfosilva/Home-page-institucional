@@ -29,7 +29,6 @@ div{
 export const TitleDifferences = styled.h2`
 background-color:rgb(242, 102, 0);
 color:#e5e5e7;
-height: 270px;
 padding:50px;
 text-align: center;
 font-size: 36px;
